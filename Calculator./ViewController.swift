@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBOutlet weak var resultLabel: UILabel!
     
     @IBOutlet weak var operationLabel: UILabel!
@@ -24,7 +28,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func numberTap(_ sender: UIButton) {
-        if rememberButtonClicked == "+" || rememberButtonClicked == "-" || rememberButtonClicked == "×" || rememberButtonClicked == "÷" || rememberButtonClicked == "%" {
+        if rememberButtonClicked == "+" || rememberButtonClicked == "-" || rememberButtonClicked == "×" || rememberButtonClicked == "÷" || rememberButtonClicked == "mod" {
             newScreen = false
         }
         
@@ -55,7 +59,7 @@ class ViewController: UIViewController {
     
     @IBAction func operatorTap(_ sender: UIButton) {
         
-        if (rememberButtonClicked == "+" || rememberButtonClicked == "-" || rememberButtonClicked == "×" || rememberButtonClicked == "÷" || rememberButtonClicked == "%") && sender.currentTitle != "=" {
+        if (rememberButtonClicked == "+" || rememberButtonClicked == "-" || rememberButtonClicked == "×" || rememberButtonClicked == "÷" || rememberButtonClicked == "mod") && sender.currentTitle != "=" {
             operationLabel.text = "\(formatNumber(result)) \(sender.currentTitle!) "
             rememberButtonClicked = sender.currentTitle!
             previousSign = rememberButtonClicked
@@ -97,7 +101,7 @@ class ViewController: UIViewController {
             result *= Double(resultLabel.text!)!
         case "÷":
             result /= Double(resultLabel.text!)!
-        case "%":
+        case "mod":
             result = result.truncatingRemainder(dividingBy: Double(resultLabel.text!)!)
         default:
             print("Error")
@@ -155,14 +159,6 @@ class ViewController: UIViewController {
     
     func formatNumber(_ number: Double) -> String{
         return String(format: "%g", number)
-    }
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
     }
 }
 

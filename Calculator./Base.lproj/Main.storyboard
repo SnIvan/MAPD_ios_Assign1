@@ -33,7 +33,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOs-Cp-iaS">
                                         <rect key="frame" x="106" y="37" width="72" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="%" image="%.png"/>
+                                        <state key="normal" title="mod" image="mod.png"/>
                                         <connections>
                                             <action selector="operatorTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXJ-9K-DIh"/>
                                         </connections>
@@ -196,8 +196,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu4-Pe-IPp">
                                 <rect key="frame" x="0.0" y="14" width="375" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <color key="textColor" red="0.60784313729999995" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -215,7 +215,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="%.png" width="199" height="201"/>
         <image name="+.png" width="200" height="200"/>
         <image name="+:-.png" width="199" height="201"/>
         <image name="-.png" width="198" height="201"/>
@@ -233,6 +232,7 @@
         <image name="c.png" width="199" height="201"/>
         <image name="devide.png" width="200" height="201"/>
         <image name="dot.png" width="200" height="202"/>
+        <image name="mod.png" width="454" height="458"/>
         <image name="x.png" width="200" height="201"/>
     </resources>
 </document>
