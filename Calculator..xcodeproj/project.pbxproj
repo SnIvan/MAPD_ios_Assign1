@@ -31,6 +31,7 @@
 		2C920205215D5ECF0096E25A /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C920202215D5ECE0096E25A /* x.png */; };
 		2C920206215D5ECF0096E25A /* devide.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C920203215D5ECF0096E25A /* devide.png */; };
 		2C92020A215D72A70096E25A /* mod.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C920209215D72A70096E25A /* mod.png */; };
+		2C92020C215D73C90096E25A /* App - Splash Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C92020B215D73C90096E25A /* App - Splash Screen1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		2C920202215D5ECE0096E25A /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		2C920203215D5ECF0096E25A /* devide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = devide.png; sourceTree = "<group>"; };
 		2C920209215D72A70096E25A /* mod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mod.png; sourceTree = "<group>"; };
+		2C92020B215D73C90096E25A /* App - Splash Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "App - Splash Screen1.png"; path = "../../../ui:ux/App - Splash Screen1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		2C9201C3215D5E3D0096E25A = {
 			isa = PBXGroup;
 			children = (
+				2C92020B215D73C90096E25A /* App - Splash Screen1.png */,
 				2C920209215D72A70096E25A /* mod.png */,
 				2C920203215D5ECF0096E25A /* devide.png */,
 				2C920201215D5ECE0096E25A /* dot.png */,
@@ -195,6 +198,7 @@
 				2C9201FB215D5EB00096E25A /* =.png in Resources */,
 				2C9201F9215D5EB00096E25A /* 6.png in Resources */,
 				2C920204215D5ECF0096E25A /* dot.png in Resources */,
+				2C92020C215D73C90096E25A /* App - Splash Screen1.png in Resources */,
 				2C9201F5215D5EB00096E25A /* 5.png in Resources */,
 				2C9201F6215D5EB00096E25A /* 2.png in Resources */,
 				2C9201D7215D5E3E0096E25A /* Assets.xcassets in Resources */,
