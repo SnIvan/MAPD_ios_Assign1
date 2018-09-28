@@ -1,11 +1,14 @@
-//
-//  ViewController.swift
+
 //  Calculator.
 //
-//  Created by Ivan on 2018-09-27.
-//  Copyright © 2018 CentennialCollege. All rights reserved.
+//  Created by Ivan Sakhan on 2018-09-27.
+//  Student ID 301006637
 //
-
+//  App description: Simple calculator app written on Swift4.
+//
+//  Calculator v 1.0
+//
+//  Copyright © 2018 CentennialCollege. All rights reserved.
 import UIKit
 
 class ViewController: UIViewController {
@@ -26,7 +29,9 @@ class ViewController: UIViewController {
     
     var result: Double = 0
     
-    
+    /* Actions for numbers
+            mod -> get a remainder of the division
+    */
     @IBAction func numberTap(_ sender: UIButton) {
         if rememberButtonClicked == "+" || rememberButtonClicked == "-" || rememberButtonClicked == "×" || rememberButtonClicked == "÷" || rememberButtonClicked == "mod" {
             newScreen = false
@@ -131,6 +136,7 @@ class ViewController: UIViewController {
         
     }
     
+    //Action for C button and for +/- button
     @IBAction func otherButtonTap(_ sender: UIButton) {
         if sender.currentTitle == "C" {
             self.clearScreen()
@@ -143,6 +149,7 @@ class ViewController: UIViewController {
         rememberButtonClicked = sender.currentTitle!
     }
     
+    //Reset resultLabel and operationLabel
     func clearScreen() -> Void {
         operationLabel.text = ""
         resultLabel.text = "0"

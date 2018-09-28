@@ -31,7 +31,7 @@
 		2C920205215D5ECF0096E25A /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C920202215D5ECE0096E25A /* x.png */; };
 		2C920206215D5ECF0096E25A /* devide.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C920203215D5ECF0096E25A /* devide.png */; };
 		2C92020A215D72A70096E25A /* mod.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C920209215D72A70096E25A /* mod.png */; };
-		2C92020C215D73C90096E25A /* App - Splash Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C92020B215D73C90096E25A /* App - Splash Screen1.png */; };
+		2CA19597215DA16D00EA09B9 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA19596215DA16D00EA09B9 /* appIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +61,8 @@
 		2C920202215D5ECE0096E25A /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		2C920203215D5ECF0096E25A /* devide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = devide.png; sourceTree = "<group>"; };
 		2C920209215D72A70096E25A /* mod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mod.png; sourceTree = "<group>"; };
-		2C92020B215D73C90096E25A /* App - Splash Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "App - Splash Screen1.png"; path = "../../../ui:ux/App - Splash Screen1.png"; sourceTree = "<group>"; };
+		2CA19596215DA16D00EA09B9 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon.png; path = Assets.xcassets/appIcon.png; sourceTree = "<group>"; };
+		2CA195F3215DAC0000EA09B9 /* App - Splash Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App - Splash Screen1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +79,38 @@
 		2C9201C3215D5E3D0096E25A = {
 			isa = PBXGroup;
 			children = (
-				2C92020B215D73C90096E25A /* App - Splash Screen1.png */,
+				2C9201CE215D5E3D0096E25A /* Calculator. */,
+				2C9201CD215D5E3D0096E25A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C9201CD215D5E3D0096E25A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C9201CC215D5E3D0096E25A /* Calculator..app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C9201CE215D5E3D0096E25A /* Calculator. */ = {
+			isa = PBXGroup;
+			children = (
+				2CA195F2215DABEB00EA09B9 /* Images */,
+				2C9201CF215D5E3D0096E25A /* AppDelegate.swift */,
+				2C9201D1215D5E3D0096E25A /* ViewController.swift */,
+				2C9201D3215D5E3D0096E25A /* Main.storyboard */,
+				2C9201D6215D5E3E0096E25A /* Assets.xcassets */,
+				2CA19596215DA16D00EA09B9 /* appIcon.png */,
+				2C9201D8215D5E3E0096E25A /* LaunchScreen.storyboard */,
+				2C9201DB215D5E3E0096E25A /* Info.plist */,
+			);
+			path = Calculator.;
+			sourceTree = "<group>";
+		};
+		2CA195F2215DABEB00EA09B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2CA195F3215DAC0000EA09B9 /* App - Splash Screen1.png */,
 				2C920209215D72A70096E25A /* mod.png */,
 				2C920203215D5ECF0096E25A /* devide.png */,
 				2C920201215D5ECE0096E25A /* dot.png */,
@@ -98,30 +130,8 @@
 				2C9201E8215D5EAE0096E25A /* 8.png */,
 				2C9201EF215D5EB00096E25A /* 9.png */,
 				2C9201E7215D5EAE0096E25A /* c.png */,
-				2C9201CE215D5E3D0096E25A /* Calculator. */,
-				2C9201CD215D5E3D0096E25A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2C9201CD215D5E3D0096E25A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2C9201CC215D5E3D0096E25A /* Calculator..app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2C9201CE215D5E3D0096E25A /* Calculator. */ = {
-			isa = PBXGroup;
-			children = (
-				2C9201CF215D5E3D0096E25A /* AppDelegate.swift */,
-				2C9201D1215D5E3D0096E25A /* ViewController.swift */,
-				2C9201D3215D5E3D0096E25A /* Main.storyboard */,
-				2C9201D6215D5E3E0096E25A /* Assets.xcassets */,
-				2C9201D8215D5E3E0096E25A /* LaunchScreen.storyboard */,
-				2C9201DB215D5E3E0096E25A /* Info.plist */,
-			);
-			path = Calculator.;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +200,7 @@
 				2C9201F4215D5EB00096E25A /* 4.png in Resources */,
 				2C9201F1215D5EB00096E25A /* 0.png in Resources */,
 				2C9201DA215D5E3E0096E25A /* LaunchScreen.storyboard in Resources */,
+				2CA19597215DA16D00EA09B9 /* appIcon.png in Resources */,
 				2C92020A215D72A70096E25A /* mod.png in Resources */,
 				2C920205215D5ECF0096E25A /* x.png in Resources */,
 				2C9201FA215D5EB00096E25A /* 1.png in Resources */,
@@ -198,7 +209,6 @@
 				2C9201FB215D5EB00096E25A /* =.png in Resources */,
 				2C9201F9215D5EB00096E25A /* 6.png in Resources */,
 				2C920204215D5ECF0096E25A /* dot.png in Resources */,
-				2C92020C215D73C90096E25A /* App - Splash Screen1.png in Resources */,
 				2C9201F5215D5EB00096E25A /* 5.png in Resources */,
 				2C9201F6215D5EB00096E25A /* 2.png in Resources */,
 				2C9201D7215D5E3E0096E25A /* Assets.xcassets in Resources */,
